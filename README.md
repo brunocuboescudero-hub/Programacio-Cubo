@@ -6,3 +6,5 @@ Cognoms- Cubo escudero
 Classe 1rC
 Modalitat- tecnològic
 
+Presentació:
+M'agraden el videojocs i la programació🎮🕹️
