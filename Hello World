@@ -1,1 +1,4 @@
-
+print ('hola mundo')
+print ('escriu la teva edat')
+input ()
+print ('Tienes 16 anys')
