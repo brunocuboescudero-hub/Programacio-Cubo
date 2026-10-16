@@ -1,4 +1,17 @@
-print ('hola mundo')
-print ('escriu la teva edat')
-input ()
-print ('Tienes 16 anys')
+print ('hola com et dius?')
+nom = input()
+print ('En quin any vas nèixer?')
+any = input()
+print (' Hola ' + nom + ' Tienes ' + str(2026 - int(any)) + ' anys')
+
+
+#
+'''
+variable1="57"
+print (variable1)
+print(2+2)
+#print(2+variable1)
+variable2=int(variable1)
+print(variable2)
+print(2+variable2)
+'''
