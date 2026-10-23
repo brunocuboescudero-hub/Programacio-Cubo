@@ -1,1 +1,22 @@
+#para q se vea más bonico y deje espacios
+print("")
 
+
+print("ingrese un número")
+n1=int(input())
+print("ingrese otro número")
+n2=int(input())
+suma=n1+n2
+#les se puede hacer sin poner{}
+if (n1+n2 > 10): {
+    print("la suma es mayor que 10")
+}
+else:
+    print("la suma es menor que 10")
+
+#nuevo programa
+
+
+if (suma > 8) or (suma < 4):
+    print("la suma es mayor que 8 o menor que 4")
+        
