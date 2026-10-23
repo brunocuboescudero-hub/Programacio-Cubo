@@ -22,12 +22,12 @@ t2=input('escriu un altre text\n')
 print('concatenar:',t1+t2,'\n')
 print('multiplicació:',t1*3,'\n')
 
-print('el primer nombre es:"num1"')
-print('el segon nombre es:"num2"')
+print('el primer nombre es:',número)
+print('el segon nombre es:', número2)
 num3=número
-num1=número2
-num2=número
+número=número2
+número2=num3
 
 
-print('Ara el primer nombre és:', num1)
-print('Ara el segon nombre és:', num2)
+print('Ara el primer nombre és:', número)
+print('Ara el segon nombre és:', número2)
