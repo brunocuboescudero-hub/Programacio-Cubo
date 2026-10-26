@@ -19,4 +19,15 @@ else:
 
 if (suma > 8) or (suma < 4):
     print("la suma es mayor que 8 o menor que 4")
-        
+#and condición (i) condición
+    if(suma >= 12) and (suma < 18):
+        print("la suma es mayor o igual que 12 y menor que 18")
+      #=és assignar ==un valor es igual
+        if(suma == 15):
+            print("la suma es igual a 15")
+            if not(suma == 13):
+                print("la suma no es 13")
+        elif(suma == 15):
+                print("la suma es igual a 15")
+            
+
