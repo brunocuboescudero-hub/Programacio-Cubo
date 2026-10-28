@@ -4,7 +4,14 @@ print("ingrese un número")
 num1 = int(input())
 print("ingrese otro número")
 num2 = int(input())
-print("¿qué quieres hacer? 1) sumar 2) restar 3) multiplicar 4) dividir 5) módulo 6) división entera 7) potencia\n")
+print("¿qué quieres hacer?")
+print(" 1) sumar")
+print(" 2) restar")
+print(" 3) multiplicar")
+print(" 4) dividir")
+print(" 5) módulo")
+print(" 6) división entera")
+print(" 7) potencia\n")
 
 operación = int(input())
 if operación == 1:
@@ -26,9 +33,5 @@ elif operación == 6:
 elif operación == 7:
     print("la potencia es: ", (num1 ** num2))
     print("la potencia es: ", (num2 ** num1))
-
-
-
-
 
     print("")
