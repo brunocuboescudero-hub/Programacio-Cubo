@@ -21,34 +21,38 @@ elif operación == 2:
     print(" 1) restar num1 - num2")
     print(" 2) restar num2 - num1")
     opcion = int(input())
-    if opcion == 1:
-        print("la resta es: ", (num1 - num2))
-    else:
-        print("la resta es: ", (num2 - num1))
+if opcion == 1:
+   print("la resta es: ", (num1 - num2))
+else:
+  print("la resta es: ", (num2 - num1))
 elif operación == 3:
     print("la multiplicación es: ", (num1 * num2))
 elif operación == 4:
-      print("como lo quieres dividir?")
-        print(" 1) dividir num1 - num2")
-        print(" 2) dividir num2 - num1")
-      opcion = int(input()) 
+    print("como lo quieres dividir?")
+    print(" 1) dividir num1 - num2")
+    print(" 2) dividir num2 - num1")
+    opcion = int(input()) 
     print("la división es: ", (num1 / num2))
     print("la división es: ", (num2 / num1))
 elif operación == 5:
+    print("como quieres el módulo?")
+    print(" 1) % num1 - num2")
+    print(" 2) % num2 - num1")
+    opcion = int(input()) 
     print("el módulo es: ", (num1 % num2))
     print("el módulo es: ", (num2 % num1))
 elif operación == 6:
- print("como quieres dividir enteros?")
-        print(" 1) dividir num1 - num2")
-        print(" 2) dividir num2 - num1")
-      opcion = int(input()) 
+    print("como quieres dividir enteros?")
+    print(" 1) dividir num1 - num2")
+    print(" 2) dividir num2 - num1")
+    opcion = int(input()) 
     print("la división entera es: ", (num1 // num2))
     print("la división entera es: ", (num2 // num1))
 elif operación == 7:
- print("A que potencia quieres elevar los números?")
-        print(" 1) elevar num1 a num2")
-        print(" 2) elevar num2 a num1")
-      opcion = int(input()) 
+    print("A que potencia quieres elevar los números?")
+    print(" 1) elevar num1 a num2")
+    print(" 2) elevar num2 a num1")
+    opcion = int(input()) 
     print("la potencia es: ", (num1 ** num2))
     print("la potencia es: ", (num2 ** num1))
 
