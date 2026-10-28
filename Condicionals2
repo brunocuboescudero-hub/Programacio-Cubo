@@ -1,1 +1,34 @@
+print("")
 
+print("ingrese un número")
+num1 = int(input())
+print("ingrese otro número")
+num2 = int(input())
+print("¿qué quieres hacer? 1) sumar 2) restar 3) multiplicar 4) dividir 5) módulo 6) división entera 7) potencia\n")
+
+operación = int(input())
+if operación == 1:
+    print("la suma es: ", (num1 + num2))
+elif operación == 2:
+    print("la resta es: ", (num1 - num2))
+    print("la resta es: ", (num2 - num1))
+elif operación == 3:
+    print("la multiplicación es: ", (num1 * num2))
+elif operación == 4:
+    print("la división es: ", (num1 / num2))
+    print("la división es: ", (num2 / num1))
+elif operación == 5:
+    print("el módulo es: ", (num1 % num2))
+    print("el módulo es: ", (num2 % num1))
+elif operación == 6:
+    print("la división entera es: ", (num1 // num2))
+    print("la división entera es: ", (num2 // num1))
+elif operación == 7:
+    print("la potencia es: ", (num1 ** num2))
+    print("la potencia es: ", (num2 ** num1))
+
+
+
+
+
+    print("")
