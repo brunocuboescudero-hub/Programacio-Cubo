@@ -1,3 +1,6 @@
+import string
+
+
 print("")
 llista = [2, "Hola", 3.5 ]
 print(llista[0])
@@ -22,3 +25,17 @@ print(llista)
 
 llista[2] = ''
 print(llista)
+
+
+#Dni
+
+dni = input("Introdueix el teu DNI complet i sense espais: ")
+numero =  int(dni[0:8])
+lletra = dni[8]
+
+llista= ["T", "R", "W", "A", "G", "M", "Y", "F", "P", "D", "X", "B", "N", "J", "Z", "S", "Q", "V", "H", "L", "C", "K", "E"]
+
+if dni[8] == llista[numero % 23]:
+    print("El DNI és correcte")
+else:
+    print("El DNI és incorrecte, la lletra correcta és: ", llista[numero % 23])
