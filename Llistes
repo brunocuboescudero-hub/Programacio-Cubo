@@ -26,16 +26,30 @@ print(llista)
 llista[2] = ''
 print(llista)
 
-
+print("")
 #Dni
 
 dni = input("Introdueix el teu DNI complet i sense espais: ")
 numero =  int(dni[0:8])
 lletra = dni[8]
 
-llista= ["T", "R", "W", "A", "G", "M", "Y", "F", "P", "D", "X", "B", "N", "J", "Z", "S", "Q", "V", "H", "L", "C", "K", "E"]
+llista_DNI= ["T", "R", "W", "A", "G", "M", "Y", "F", "P", "D", "X", "B", "N", "J", "Z", "S", "Q", "V", "H", "L", "C", "K", "E"]
 
-if dni[8] == llista[numero % 23]:
+if dni[8] == llista_DNI[numero % 23]:
     print("El DNI és correcte")
 else:
-    print("El DNI és incorrecte, la lletra correcta és: ", llista[numero % 23])
+    print("El DNI és incorrecte, la lletra correcta és: ", llista_DNI[numero % 23])
+
+print("")
+#Funció append
+print("la llista és:", llista)
+llista.append("gat")
+print(llista)
+
+#Funció Insert
+llista.insert(1, "gos")
+print(llista)
+
+
+      
+      
