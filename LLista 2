@@ -1,1 +1,11 @@
+print("")
+
+llista=[]
+list.append(input("Introdueix el primer número: "))
+list.append(input("Introdueix un segon número: "))
+list.append(input("Introdueix un tercer número: "))
+list.append(input("Introdueix un quart número: "))
+
+
+
 
