@@ -1,4 +1,8 @@
+from random import random
+
+
 print('')
+
 
 
 llista =[]
@@ -33,5 +37,16 @@ for lista in notes:
             n += 1
         columna += 1
     fila += 1
-print ("El número 10 sale: ", n)
+print ("El número 10 sale: ", n, "veces")
 print("posiciones: ", posicion)
+print("")
+#bucle condicional numero random
+import random
+secret = random.randint(1,10)
+while True:
+    guess = int(input("Introdueix un número: "))
+    if guess == secret:
+        print("Has encertat!")
+        break
+    if not guess == secret:
+        print("Has fallat, torna a provar!")
