@@ -1,10 +1,31 @@
 print("")
 
 llista=[]
-list.append(input("Introdueix el primer número: "))
-list.append(input("Introdueix un segon número: "))
-list.append(input("Introdueix un tercer número: "))
-list.append(input("Introdueix un quart número: "))
+llista.append(int(input("Introdueix el primer número: ")))
+llista.append(int(input("Introdueix un segon número: ")))
+llista.append(int(input("Introdueix un tercer número: ")))
+llista.append(int(input("Introdueix un quart número: ")))
+
+if llista[0] < llista[1]:
+    llista[0], llista[1] = llista[1], llista[0]
+
+if llista[0] < llista[2]:
+    llista[0], llista[2] = llista[2], llista[0]
+
+if llista[0] < llista[3]:
+    llista[0], llista[3] = llista[3], llista[0]
+
+if llista[1] < llista[2]:
+    llista[1], llista[2] = llista[2], llista[1]
+
+if llista[1] < llista[3]:
+    llista[1], llista[3] = llista[3], llista[1]
+
+if llista[2] < llista[3]:
+    llista[2], llista[3] = llista[3], llista[2]
+print("")
+print("Els números ordenats de major a menor són: ", llista)
+print("Els números ordenats de menor a major són: ", llista[::-1])
 
 
 
